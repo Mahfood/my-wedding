@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/mPanasiewicz/my-wedding/tree/master.svg?style=shield&circle-token=59df47d03401492610af18b1c6db112fe0427dff)](https://circleci.com/gh/mPanasiewicz/my-wedding/tree/master)
+
 ## My personal wedding application
 ### Application information
   * ruby 2.3.1
