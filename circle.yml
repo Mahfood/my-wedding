@@ -17,8 +17,6 @@ test:
 deployment:
   production:
     branch: master
-    heroku:
-      appname: hidden-forest-48944
     commands:
       - git push git@heroku.com:hidden-forest-48944.git $CIRCLE_SHA1:master
       - heroku run rake db:migrate --app hidden-forest-48944
