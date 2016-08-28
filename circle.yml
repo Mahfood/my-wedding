@@ -1,11 +1,8 @@
 machine:
+  pre:
+    - rvm mount -r https://s3.amazonaws.com/circle-downloads/rubies/binaries/ubuntu/12.04/x86_64/ruby-2.3.1.tar.bz2
   ruby:
     version: 2.3.1
-  pre:
-    - git clone https://github.com/rbenv/ruby-build.git && cd ruby-build && sudo sh install.sh
-    - rbenv install 2.3.1
-    - rbenv global 2.3.1
-    - cd $CIRCLE_PROJECT_REPONAME && gem update --system
 dependencies:
   post:
     - bundle exec rake assets:precompile
