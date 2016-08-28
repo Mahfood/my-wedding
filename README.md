@@ -10,3 +10,11 @@
 3. bundle exec rake db:migrate
 4. rails server
 Rails server starts **puma**
+
+#### Heroku address ####
+##### https://hidden-forest-48944.herokuapp.com #####
+
+#### Heroku address ####
+
+#### Continous Integration && Continous Deployment(CI && CD) supported by CircleCI ####
+##### https://circleci.com #####
