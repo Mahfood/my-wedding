@@ -21,8 +21,17 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# # # # # #  # # # # Frontend gems # # # # # # # # # #
+gem 'bootstrap', '~> 4.0.0.alpha3.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
+
 gem 'foreman', '~> 0.82.0'
 gem 'annotate', '~> 2.7', '>= 2.7.1'
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
