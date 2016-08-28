@@ -1,0 +1,12 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+
+Style/GlobalVars:
+  AllowedVariables: [$mobile_phone_prefixes, $landline_phone_prefixes]
