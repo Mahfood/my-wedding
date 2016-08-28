@@ -40,7 +40,8 @@ group :development, :test do
   gem 'pry-byebug', platform: :mri
   gem 'pry-rescue', '~> 1.4', '>= 1.4.4'
   gem 'pry-stack_explorer', '~> 0.4.9.2'
-  gem 'rspec', '~> 3.4'
+  gem 'rails-controller-testing', git: 'https://github.com/rails/rails-controller-testing'
+  gem 'rspec-rails', '3.5'
   gem 'ffaker', '~> 2.2'
 end
 
