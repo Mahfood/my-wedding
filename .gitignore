@@ -11,6 +11,9 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# ignore assets precompiled
+/public/assets
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -19,3 +22,5 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+.env
+logfile

@@ -1,0 +1,25 @@
+machine:
+  ruby:
+    version: 2.3.1
+  pre:
+    - git clone https://github.com/rbenv/ruby-build.git && cd ruby-build && sudo sh install.sh
+    - rbenv install 2.3.1
+    - rbenv global 2.3.1
+    - cd $CIRCLE_PROJECT_REPONAME && gem update --system
+
+dependencies:
+  post:
+    - bundle exec rake assets:precompile
+test:
+  override:
+    - bundle exec rspec:
+        parallel: true
+        files:
+          - spec/**/*.rb          # or a glob (ruby globs)b
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git push git@heroku.com:hidden-forest-48944.git $CIRCLE_SHA1:master
+      - heroku run rake db:migrate --app hidden-forest-48944
