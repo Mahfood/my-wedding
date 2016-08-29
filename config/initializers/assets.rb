@@ -8,4 +8,22 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w(bootstrap.css
+                                                 chocolat.css
+                                                 style.css
+                                                 animate.min.css
+                                                 jquery.countdown.css
+                                                 glyphicons-halflings-regular.eot
+                                                 glyphicons-halflings-regular.svg
+                                                 glyphicons-halflings-regular.ttf
+                                                 glyphicons-halflings-regular.woff
+                                                 glyphicons-halflings-regular.woff2)
+
+Rails.application.config.assets.precompile += %w(jquery-2.1.4.min.js
+                                                 jquery.chocolat.js
+                                                 wow.min.js
+                                                 bars.js
+                                                 jquery.countdown.js
+                                                 script.js
+                                                 jquery.flexisel.js
+                                                 jquery.wmuSlider.js)
