@@ -290,7 +290,7 @@ DEPENDENCIES
   rails-controller-testing!
   rspec-rails (= 3.5)
   rubocop (~> 0.42.0)
-  sass-rails (~> 5.0)
+  sass-rails (~> 5.0, >= 5.0.6)
   spirit_hands
   spring
   spring-watcher-listen (~> 2.0.0)
