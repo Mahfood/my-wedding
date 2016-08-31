@@ -1,11 +1,46 @@
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); }
 
+$(window).load(function() {
+	$("#flexiselDemo1").flexisel({
+		visibleItems: 6,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+		responsiveBreakpoints: {
+			portrait: {
+				changePoint:480,
+				visibleItems: 2
+			},
+			landscape: {
+				changePoint:640,
+				visibleItems:3
+			},
+			tablet: {
+				changePoint:768,
+				visibleItems: 4
+			}
+		}
+	});
+
+});
 $(document).ready(function(){
+	$('.example1').wmuSlider();
 
+	$(".scroll").click(function(event){
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
 
+	$('.portfolio-grids a').Chocolat();
 	/* ---- Countdown timer ---- */
 
+	 new WOW().init();
+
 	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 368*24*60*60*1000
+	  timestamp : new Date(2017, 8, 2).getTime()
 	});
 
 

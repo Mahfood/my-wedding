@@ -70,7 +70,7 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 }
 .logo h1 a span{
 	display: block;
-    background: url(../img-sp.png) no-repeat 0px -11px;
+    background: url(image_path('img-sp.png')) no-repeat 0px -11px;
     width: 50px;
     height: 39px;
     margin: 0 auto;
@@ -139,28 +139,28 @@ ul.social-icons li{
     margin:-1.3rem;
 }
 ul.social-icons li .icon-button .icon-facebook{
-    background: url(../img-sp.png) no-repeat 7px -54px;
+    background: url(image_path('img-sp.png')) no-repeat 7px -54px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-facebook:hover{
     background-position:7px -85px;
 }
 ul.social-icons li .icon-button .icon-instagram{
-    background:url(../img-sp.png) no-repeat -25px -54px;
+    background: url(image_path('img-sp.png')) no-repeat -25px -54px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-instagram:hover{
     background-position:-25px -84px;
 }
 ul.social-icons li .icon-button .icon-twitter{
-    background:url(../img-sp.png) no-repeat -62px -53px;
+    background: url(image_path('img-sp.png')) no-repeat -62px -53px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-twitter:hover{
     background-position:-62px -83px;
 }
 ul.social-icons li .icon-button .icon-g-plus{
-    background:url(../img-sp.png) no-repeat -99px -53px;
+    background: url(image_path('img-sp.png')) no-repeat -99px -53px;
     display: block;
 }
 ul.social-icons li .icon-button .icon-g-plus:hover{
@@ -837,7 +837,7 @@ ul.wmuSliderPagination {
 }
 .services-bottom h2:before{
 	content:'';
-	background:url(../img-sp.png) no-repeat -52px -150px;
+	background: url(image_path('img-sp.png')) no-repeat -52px -150px;
 	display:block;
 	width:32px;
 	height:32px;
@@ -847,7 +847,7 @@ ul.wmuSliderPagination {
 }
 .services-bottom h2:after{
 	content:'';
-	background:url(../img-sp.png) no-repeat -5px -150px;
+	background: url(image_path('img-sp.png')) no-repeat -5px -150px;
 	display:block;
 	width:32px;
 	height:32px;
@@ -1225,7 +1225,7 @@ h2.resp-accordion {
 .footer-logo a{
 	font-size: 3em;
     color: #fff;
-    background: url(../img-sp.png) no-repeat -6px -198px;
+    background: url(image_path('img-sp.png')) no-repeat -6px -198px;
     text-decoration: none;
     padding-left: 1.5em;
 }
@@ -1693,7 +1693,7 @@ h2.resp-accordion {
 }
 @media (max-width: 568px){
 	.logo h1 a span {
-		background: url(../img-sp.png) no-repeat 0px -9px;
+		background: url(image_path('img-sp.png')) no-repeat 0px -9px;
 		height: 28px;
 		background-size: 600%;
 	}
@@ -1741,16 +1741,16 @@ h2.resp-accordion {
 		margin: -1rem;
 	}
 	ul.social-icons li .icon-button .icon-facebook {
-		background: url(../img-sp.png) no-repeat 3px -58px;
+		background: url(image_path('img-sp.png')) no-repeat 3px -58px;
 	}
 	ul.social-icons li .icon-button .icon-instagram {
-		background: url(../img-sp.png) no-repeat -30px -59px;
+		background: url(image_path('img-sp.png')) no-repeat -30px -59px;
 	}
 	ul.social-icons li .icon-button .icon-twitter {
-		background: url(../img-sp.png) no-repeat -66px -58px;
+		background: url(image_path('img-sp.png')) no-repeat -66px -58px;
 	}
 	ul.social-icons li .icon-button .icon-g-plus {
-		background: url(../img-sp.png) no-repeat -104px -58px;
+		background: url(image_path('img-sp.png')) no-repeat -104px -58px;
 	}
 	ul.social-icons li .icon-button .icon-g-plus:hover {
 		background-position:-104px -91px;
@@ -1908,7 +1908,7 @@ h2.resp-accordion {
 	}
 	.footer-logo a {
 		font-size: 2em;
-		background: url(../img-sp.png) no-repeat -4px -127px;
+		background: url(image_path('img-sp.png')) no-repeat -4px -127px;
 		background-size: 150%;
 	}
 	.footer-logo p {
@@ -2138,7 +2138,7 @@ h2.resp-accordion {
 	}
 	.footer-logo a {
 		font-size: 1.7em;
-		background: url(../img-sp.png) no-repeat -4px -106px;
+		background: url(image_path('img-sp.png')) no-repeat -4px -106px;
 		background-size: 150%;
 	}
 	.b-wrapper h5 {
