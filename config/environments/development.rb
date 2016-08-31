@@ -32,7 +32,6 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   config.assets.paths << Rails.root.join('vendor', 'assets', 'fonts')
-  config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
   config.assets.enabled = true
 
 
