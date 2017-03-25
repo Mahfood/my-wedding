@@ -54,6 +54,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rubocop', '~> 0.42.0'
+  gem 'better_errors', '~> 2.1', '>= 2.1.1'
 end
 
 group :test do
