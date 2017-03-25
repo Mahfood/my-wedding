@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.4.0'
 
 
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-gem 'pg', '~> 0.18.4'
-gem 'puma', '~> 3.0'
+gem 'rails', '~> 5.1.0.rc1'
+gem 'pg', '~> 0.20.0'
+gem 'puma', '~> 3.8', '>= 3.8.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # # # # # #  # # # # Frontend gems # # # # # # # # # #
-gem 'bootstrap', '~> 4.0.0.alpha3.1'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 
 source 'https://rails-assets.org' do
@@ -53,7 +53,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'rubocop', '~> 0.42.0'
+  gem 'rubocop', '~> 0.47.1'
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
 end
 
