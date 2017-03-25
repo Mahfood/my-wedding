@@ -5,6 +5,7 @@ ruby '2.4.0'
 gem 'rails', '~> 5.1.0.rc1'
 gem 'pg', '~> 0.20.0'
 gem 'puma', '~> 3.8', '>= 3.8.2'
+gem 'puma_worker_killer', '~> 0.0.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -32,6 +33,7 @@ end
 gem 'rails_12factor'
 gem 'foreman', '~> 0.82.0'
 gem 'annotate', '~> 2.7', '>= 2.7.1'
+gem 'dotenv-rails', '~> 2.2'
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 group :development, :test do
@@ -55,6 +57,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rubocop', '~> 0.47.1'
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  gem 'capistrano'
+  gem 'capistrano3-puma', '~> 3.1'
+  gem 'capistrano-rails', '~> 1.2', '>= 1.2.3', require: false
+  gem 'capistrano-bundler', '~> 1.2', require: false
+  gem 'capistrano-rvm', '~> 0.1.2'
 end
 
 group :test do
