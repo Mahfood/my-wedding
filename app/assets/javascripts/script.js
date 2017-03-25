@@ -39,9 +39,11 @@ $(document).ready(function(){
 
 	 new WOW().init();
 
-	$('#counter').countdown({
-	  timestamp : new Date(2017, 8, 2).getTime()
-	});
+	$('#counter').countdown("2017/09/02 16:30:00", function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  });
 
 
 	/* ---- Animations ---- */
