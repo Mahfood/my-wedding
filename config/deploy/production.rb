@@ -1,4 +1,27 @@
-server '34.249.149.58', user: 'ec2-user', roles: %w(web app db)
+# be sure to comment out the require 'capistrano/deploy' line in your Capfile!
+# config valid only for Capistrano 3.1+
+lock '3.7.2'
+
+server 'ec2-34-249-149-58.eu-west-1.compute.amazonaws.com', user: 'ec2-user', roles: %w(app db web)
+set :rails_env, :production
+set :rack_env, :production
+set :stage, :production
+set :user, 'ec2-user'
+
+set :rvm_type, :user # or :system, depends on your rbenv setup
+set :puma_conf, "/home/#{fetch(:user)}/shared/config/puma.rb"
+set :deploy_to, "/home/#{fetch(:user)}"
+set :domain, 'wesele.panasiewicz.pl'
+
+# set :branch do
+#   default_tag = `git tag`.split("\n").last
+#   tag = Capistrano::CLI.ui.ask "Tag to deploy (make sure to push the tag first): [#{default_tag}] "
+#   tag = default_tag if tag.empty?
+#   tag
+# end
+
+ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp } # if you want to set the branch by hand
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
