@@ -9,8 +9,8 @@ set :stage, :production
 set :user, 'deploy'
 
 set :rvm_type, :user # or :system, depends on your rbenv setup
-set :puma_conf, "/home/#{fetch(:user)}/wedding/current/config/puma.rb"
-set :deploy_to, "/home/#{fetch(:user)}/wedding"
+set :puma_conf, "/home/#{fetch(:user)}/current/config/puma.rb"
+set :deploy_to, "/home/#{fetch(:user)}"
 set :domain, 'wesele.panasiewicz.pl'
 
 # set :branch do
