@@ -23,7 +23,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # # # # # #  # # # # Frontend gems # # # # # # # # # #
-gem 'bootstrap', '~> 4.0.0.alpha6'
+# gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 
 source 'https://rails-assets.org' do

@@ -10,7 +10,6 @@ set :rvm_ruby_version, '2.4'
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle',
                                                'public/system', 'public/uploads')
 set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/puma.rb', '.env')
-set :ssh_options, forward_agent: true, auth_methods: ['publickey'], keys: ['/Users/maciejpanasiewicz/.ssh/rogacz.pem']
 set :migration_role, :app
 set :keep_releases, 2
 set :format, :pretty
