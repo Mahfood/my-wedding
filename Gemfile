@@ -4,7 +4,7 @@ ruby '2.4.0'
 
 gem 'rails', '~> 5.1.0.rc1'
 gem 'pg', '~> 0.20.0'
-gem 'puma', '~> 3.8', '>= 3.8.2'
+gem 'puma', '~> 3.6', '>= 3.6.2'
 gem 'puma_worker_killer', '~> 0.0.7'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
