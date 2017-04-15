@@ -254,7 +254,6 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     font-size: 14px;
     text-transform: uppercase;
 }
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
@@ -1184,7 +1183,10 @@ ul.wmuSliderPagination {
     float: right;
     margin: 0 0 2em;
 }
-
+#map {
+  height: 400px;
+  width: 800px;
+}
 .more {
     text-align: right;
 }
