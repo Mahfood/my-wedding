@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Scriptina', cursive;
     font-weight: 700;
     margin: 0;
 }
@@ -176,7 +176,7 @@ ul.social-icons li {
 }
 
 ul.social-icons li .icon-button .icon-facebook {
-    background: url("image_path('img-sp.png')") no-repeat 7px -54px;
+    background: url('img-sp.png') no-repeat 7px -54px;
     display: block;
 }
 
@@ -185,7 +185,7 @@ ul.social-icons li .icon-button .icon-facebook:hover {
 }
 
 ul.social-icons li .icon-button .icon-instagram {
-    background: url("image_path('img-sp.png')") no-repeat -25px -54px;
+    background: url('img-sp.png') no-repeat -25px -54px;
     display: block;
 }
 
@@ -194,7 +194,7 @@ ul.social-icons li .icon-button .icon-instagram:hover {
 }
 
 ul.social-icons li .icon-button .icon-twitter {
-    background: url("image_path('img-sp.png')") no-repeat -62px -53px;
+    background: url('img-sp.png') no-repeat -62px -53px;
     display: block;
 }
 
@@ -203,7 +203,7 @@ ul.social-icons li .icon-button .icon-twitter:hover {
 }
 
 ul.social-icons li .icon-button .icon-g-plus {
-    background: url("image_path('img-sp.png')") no-repeat -99px -53px;
+    background: url('img-sp.png') no-repeat -99px -53px;
     display: block;
 }
 
@@ -1089,7 +1089,7 @@ ul.wmuSliderPagination {
 
 .services-bottom h2:before {
     content: '';
-    background: url("image_path('img-sp.png')") no-repeat -52px -150px;
+    background: url('img-sp.png') no-repeat -52px -150px;
     display: block;
     width: 32px;
     height: 32px;
@@ -1100,7 +1100,7 @@ ul.wmuSliderPagination {
 
 .services-bottom h2:after {
     content: '';
-    background: url("image_path('img-sp.png')") no-repeat -5px -150px;
+    background: url('img-sp.png') no-repeat -5px -150px;
     display: block;
     width: 32px;
     height: 32px;
@@ -1579,7 +1579,7 @@ ul .nav-tabs {
 .footer-logo a {
     font-size: 3em;
     color: #fff;
-    background: url("image_path('img-sp.png')") no-repeat -6px -198px;
+    background: url('img-sp.png') no-repeat -6px -198px;
     text-decoration: none;
     padding-left: 1.5em;
 }
@@ -2245,7 +2245,7 @@ ul .nav-tabs {
 }
 @media (max-width: 568px) {
     .logo h1 a span {
-        background: url("image_path('img-sp.png')") no-repeat 0 -9px;
+        background: url('img-sp.png') no-repeat 0 -9px;
         height: 28px;
         background-size: 600%;
     }
@@ -2303,19 +2303,19 @@ ul .nav-tabs {
     }
 
     ul.social-icons li .icon-button .icon-facebook {
-        background: url("image_path('img-sp.png')") no-repeat 3px -58px;
+        background: url('img-sp.png') no-repeat 3px -58px;
     }
 
     ul.social-icons li .icon-button .icon-instagram {
-        background: url("image_path('img-sp.png')") no-repeat -30px -59px;
+        background: url('img-sp.png') no-repeat -30px -59px;
     }
 
     ul.social-icons li .icon-button .icon-twitter {
-        background: url("image_path('img-sp.png')") no-repeat -66px -58px;
+        background: url('img-sp.png') no-repeat -66px -58px;
     }
 
     ul.social-icons li .icon-button .icon-g-plus {
-        background: url("image_path('img-sp.png')") no-repeat -104px -58px;
+        background: url('img-sp.png') no-repeat -104px -58px;
     }
 
     ul.social-icons li .icon-button .icon-g-plus:hover {
@@ -2568,7 +2568,7 @@ ul .nav-tabs {
 
     .footer-logo a {
         font-size: 2em;
-        background: url("image_path('img-sp.png')") no-repeat -4px -127px;
+        background: url('img-sp.png') no-repeat -4px -127px;
         background-size: 150%;
     }
 
@@ -2942,7 +2942,7 @@ ul .nav-tabs {
 
     .footer-logo a {
         font-size: 1.7em;
-        background: url("image_path('img-sp.png')") no-repeat -4px -106px;
+        background: url('img-sp.png') no-repeat -4px -106px;
         background-size: 150%;
     }
 

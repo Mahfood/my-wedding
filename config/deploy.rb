@@ -5,7 +5,7 @@ set :repo_url, 'git@github.com:mPanasiewicz/my-wedding.git'
 
 set :keep_releases, 2
 
-set :rvm_ruby_version, '2.4'
+set :rvm_ruby_version, 'ruby-2.4.0'
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle',
                                                'public/system', 'public/uploads')

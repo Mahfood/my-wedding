@@ -2,14 +2,14 @@
 # config valid only for Capistrano 3.1+
 lock '3.8.0'
 
-server 'ec2-34-253-39-171.eu-west-1.compute.amazonaws.com', user: 'deploy', roles: %w(app db web)
+server '52.214.2.245', user: 'deploy', roles: %w(app db web)
 set :rails_env, :production
 set :rack_env, :production
 set :stage, :production
 set :user, 'deploy'
 
 set :rvm_type, :user # or :system, depends on your rbenv setup
-set :puma_conf, "/home/#{fetch(:user)}/shared/config/puma.rb"
+set :puma_conf, "/home/#{fetch(:user)}/current/config/puma.rb"
 set :deploy_to, "/home/#{fetch(:user)}"
 set :domain, 'wesele.panasiewicz.pl'
 
