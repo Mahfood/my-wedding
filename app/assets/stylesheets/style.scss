@@ -8,9 +8,11 @@ body,
 html {
     font-size: 100%;
     background-image: url("kosmos.jpg");
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-
+p.top-title {
+  margin-top: 15px;
+}
 p {
     margin: 0;
 }
@@ -21,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Scriptina', cursive;
+    font-family: 'Lato', cursive;
     font-weight: 700;
     margin: 0;
 }
@@ -898,7 +900,7 @@ ul.wmuSliderPagination {
 
 .btn-lg {
     font-size: 1.3em;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Lato', cursive;
     font-weight: 900;
     padding: 0;
     border-radius: 0;
@@ -1058,7 +1060,7 @@ ul.wmuSliderPagination {
     font-weight: 500;
     clear: both;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 /* ---------- /TIMER ---------- */
 /*-- //services --*/
