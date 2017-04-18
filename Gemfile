@@ -15,8 +15,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'shog', '~> 0.1.9'
-gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
-gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
+# gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
+# gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
