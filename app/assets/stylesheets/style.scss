@@ -23,9 +23,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', cursive;
+    font-family: 'aulyarsitalic', 'Lato';
+    font-style: normal;
     font-weight: 700;
     margin: 0;
+    src: font-url('aulyars_italic-webfont.woff2') format('woff2'),
+         font-url('aulyars_italic-webfont.woff') format('woff');
 }
 
 label,
@@ -1461,11 +1464,11 @@ ul .nav-tabs {
 
 .nav-tabs {
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 .nav-tabs > li:nth-child(1) {
-    margin-left: 35em;
+    margin-left: 25em;
 }
 
 .nav-tabs > li > a:hover {
