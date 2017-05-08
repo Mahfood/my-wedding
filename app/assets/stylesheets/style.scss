@@ -1125,7 +1125,7 @@ ul.wmuSliderPagination {
 /*-- //services-bottom --*/
 /*-- news --*/
 .news-grids {
-    margin: 3em 0 0;
+    margin: 3em 0 10em 0;
     text-align: center;
 }
 
@@ -1188,11 +1188,29 @@ ul.wmuSliderPagination {
     float: right;
     margin: 0 0 2em;
 }
-#map {
-  width: 700px;
-  height: 500px;
-  border: 1px solid #a0a0a0;
+.map-frame {
+    min-height: 500px;
+    min-width: 800px;
+    position: relative;
+    margin: 10 0 0 0 auto;
 }
+#map {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}
+
+#map img {
+  max-width: none;
+}
+#map label {
+    width: auto; display:inline;
+}
+
 .more {
     text-align: right;
 }
