@@ -9,13 +9,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem "jquery-slick-rails"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'shog', '~> 0.1.9'
-gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
+gem 'gmaps4rails'
 gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
 
 source 'https://rails-assets.org' do
