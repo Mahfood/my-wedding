@@ -7,14 +7,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body,
 html {
     font-size: 100%;
-    background-image: url("kosmos.jpg");
-    font-family: 'Lato', sans-serif;
+    background-image: url('universe.jpg');
+    font-family: 'Arima Madurai', sans-serif;
 }
 p.top-title {
   margin-top: 15px;
 }
 p {
     margin: 0;
+}
+#rsvp{
+ text-align: center;
+ color: white;
 }
 
 h1,
@@ -23,12 +27,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'aulyarsitalic', 'Lato';
+    font-family: 'Great Vibes', sans-serif;
     font-style: normal;
     font-weight: 700;
     margin: 0;
-    src: font-url('aulyars_italic-webfont.woff2') format('woff2'),
-         font-url('aulyars_italic-webfont.woff') format('woff');
 }
 
 label,
@@ -63,7 +65,7 @@ input[type="submit"] {
 }
 
 .banner {
-    background: url("photos/IMG_4592.JPG") no-repeat 0 0;
+    background: url("photos/Zakynthos.jpg") no-repeat 0 0;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -81,11 +83,6 @@ input[type="submit"] {
     color: #fff;
     margin: 3em 0 0;
     padding-left: 1em;
-}
-
-.banner-phone p span {
-    left: -1em;
-    color: #EEBC1D;
 }
 
 .logo {
@@ -233,7 +230,7 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
 }
 
 .navbar-default {
-    background-color: #333333;
+    background-color: #080841;
     border: none;
 }
 
@@ -262,17 +259,17 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #EEBC1D;
+    color: #080841;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #EEBC1D;
+    color: #080841;
 }
 /*-- link-effect-14 --*/
 .link-effect-14 a {
-    color: #797878;
+    color: #ffffff;
     margin: 0 20px;
     position: relative;
     overflow: hidden;
@@ -281,6 +278,9 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     -o-transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
+}
+.link-effect-14 a span {
+  color: white;
 }
 
 .link-effect-14 a span::before {
@@ -291,8 +291,8 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     position: absolute;
     left: 0;
     top: 0;
-    border-top: 2px solid #EEBC1D;
-    border-left: 2px solid #EEBC1D;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -308,9 +308,9 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-right: 2px solid #EEBC1D;
+    border-right: 2px solid #ffffff;
     /*-- agileits --*/
-    border-bottom: 2px solid #EEBC1D;
+    border-bottom: 2px solid #ffffff;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -326,8 +326,8 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     position: absolute;
     right: 0;
     top: 0;
-    border-right: 2px solid #EEBC1D;
-    border-top: 2px solid #EEBC1D;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -343,8 +343,8 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    border-left: 2px solid #EEBC1D;
-    border-bottom: 2px solid #EEBC1D;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -353,7 +353,7 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
 }
 
 .link-effect-14 a:hover {
-    color: #EEBC1D;
+    color: white;
 }
 
 .link-effect-14 a:hover::before,
@@ -362,7 +362,6 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
     right: 5px;
     top: 5px;
 }
-
 .link-effect-14 a:hover::after,
 .link-effect-14 li.active a::after {
     opacity: 1;
@@ -406,7 +405,7 @@ ul.social-icons li .icon-button .icon-g-plus:hover {
 .team h3 {
     text-align: center;
     font-size: 3em;
-    color: #ffd700;
+    color: white;
     text-shadow: 2px 2px #000000;
     position: relative;
     padding-bottom: 0.5em;
@@ -628,7 +627,7 @@ p.about-dummy {
 .testimonials-grid-right h3:after,
 .testimonials-grid-right h3:before {
     content: '';
-    background: #EEBC1D;
+    background: #080841;
     width: 20%;
     height: 1px;
     position: absolute;
@@ -650,7 +649,7 @@ p.about-dummy {
 .testimonials-grid-right h3 span:after,
 .testimonials-grid-right h3 span:before {
     content: '';
-    border: 1px solid #EEBC1D;
+    border: 1px solid #080841;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -698,7 +697,7 @@ p.testimonials-dummy {
 
 .testimonials-grid-left-grid-right h4 i {
     display: block;
-    color: #EEBC1D;
+    color: #080841;
     text-align: right;
 }
 
@@ -868,7 +867,7 @@ ul.wmuSliderPagination {
 
 .team-grid h4 {
     font-size: 1.5em;
-    color: #EEBC1D;
+    color: #080841;
     margin: 1em 0;
 }
 
@@ -903,11 +902,11 @@ ul.wmuSliderPagination {
 
 .btn-lg {
     font-size: 1.3em;
-    font-family: 'Lato', cursive;
+    font-family: 'Arima Madurai', sans-serif;
     font-weight: 900;
     padding: 0;
     border-radius: 0;
-    color: #EEBC1D;
+    color: white;
 }
 
 .btn-primary.active,
@@ -916,7 +915,7 @@ ul.wmuSliderPagination {
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-    color: #E84C3D;
+    color: #080841;
     background: none;
     border: none;
 }
@@ -942,7 +941,7 @@ ul.wmuSliderPagination {
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 2px;
-    color: #EEBC1D;
+    color: #080841;
 }
 
 .modal-body {
@@ -1019,7 +1018,7 @@ ul.wmuSliderPagination {
 #counter {
     height: 125px;
     font-size: 40px;
-    color: #ffd700;
+    color: white;
     text-shadow: 2px 2px #000000;
     overflow: hidden;
 }
@@ -1063,7 +1062,7 @@ ul.wmuSliderPagination {
     font-weight: 500;
     clear: both;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arima Madurai', sans-serif;
 }
 /* ---------- /TIMER ---------- */
 /*-- //services --*/
@@ -1094,7 +1093,6 @@ ul.wmuSliderPagination {
 
 .services-bottom h2:before {
     content: '';
-    // background: url('img-sp.png') no-repeat -52px -150px;
     display: block;
     width: 32px;
     height: 32px;
@@ -1105,7 +1103,6 @@ ul.wmuSliderPagination {
 
 .services-bottom h2:after {
     content: '';
-    // background: url('img-sp.png') no-repeat -5px -150px;
     display: block;
     width: 32px;
     height: 32px;
@@ -1119,7 +1116,7 @@ ul.wmuSliderPagination {
     font-style: italic;
     margin: 1em 0 0;
     text-shadow: 2px 2px #000000;
-    color: #EEBC1D;
+    color: white;
     font-size: 2em;
 }
 /*-- //services-bottom --*/
@@ -1182,7 +1179,7 @@ ul.wmuSliderPagination {
 .readmore-text p {
     font-size: 20px;
     font-style: italic;
-    color: #EEBC1D;
+    color: white;
     line-height: 1.8em;
     width: 65%;
     float: right;
@@ -1454,7 +1451,7 @@ h2.resp-accordion {
 .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
-    background-color: #EEBC1D;
+    background-color: #080841;
     border: none;
     border-bottom-color: transparent;
 }
@@ -1463,7 +1460,7 @@ h2.resp-accordion {
     margin-right: 3px;
     border-radius: 0;
     font-size: 1em;
-    color: #EEBC1D;
+    color: white;
     text-shadow: 2px 2px #000000;
     border: none;
 }
@@ -1496,12 +1493,12 @@ ul .nav-tabs {
 
 .tab-content p {
   padding-top: 15px;
-  color: #EEBC1D;
+  color: white;
 }
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-    background-color: #EEBC1D;
+    background-color: #080841;
     color: #fff;
 }
 /*-- //gallery --*/

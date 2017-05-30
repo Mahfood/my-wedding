@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 	$('#counter').countdown("2017/09/02 16:30:00", function(event) {
     $(this).text(
-      event.strftime('%D days %H:%M:%S')
+      event.strftime('%D dni %H:%M:%S')
     );
   });
 
