@@ -26,12 +26,15 @@ $(window).load(function() {
 	});
 
 });
+
 $(document).ready(function(){
 	$('.example1').wmuSlider();
 
-	$(".scroll").click(function(event){
+	$(".nav .scroll").click(function(event){
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		$('.nav li.active').removeClass('active');
+		$(this).closest('li').addClass('active');
 	});
 
 	$('.portfolio-grids a').Chocolat();
