@@ -12,6 +12,9 @@ html {
 }
 p.top-title {
   margin-top: 15px;
+  color: #000080;
+  line-height: 50%;
+  margin-bottom: 20px;
 }
 p {
     margin: 0;
@@ -20,7 +23,14 @@ p {
  text-align: center;
  color: white;
 }
-
+#home1 .container{
+  margin-left: 50px;
+}
+#home1 .container .logo{
+  padding: 15px;
+  background:rgba(255,255,255,0.5);
+  margin-top: 30px;
+}
 h1,
 h2,
 h3,
@@ -87,7 +97,7 @@ input[type="submit"] {
 
 .logo {
     float: left;
-    margin-left: 18em;
+    margin-left: 1em;
 }
 
 .logo h1 a {
