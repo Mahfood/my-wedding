@@ -1,7 +1,7 @@
 <div class="banner" id="home1">
 <div class="container">
 	<div class="logo animated wow zoomIn" data-wow-delay=".5s">
-		<h1><a href="/"><span></span><p class="top-title">Karolina i Maciej</p><br><br>2 września 2017r</a></h1>
+		<h1><a href="/"><span></span><p class="top-title">Karolina i Maciej<br /><br />biorą ślub<br /><br />2 września 2017r.</p></a></h1>
 	</div>
 </div>
 </div>
@@ -24,9 +24,10 @@
 				<nav class="link-effect-14" id="link-effect-14">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="/"><span>Strona główna</span></a></li>
-						<li><a href="#counter" class="scroll"><span>Ogłoszenie</span></a></li>
+						<li><a href="#counter_heading" class="scroll"><span>Rsvp</span></a></li>
 						<li><a href="#events" class="scroll"><span>Aktualności</span></a></li>
-						<li><a href="#map" class="scroll"><span>Mapka</span></a></li>
+						<!-- <li><a href="#about-us" class="scroll"><span>O nas</span></a></li> -->
+						<li><a href="#map-title" class="scroll"><span>Mapka</span></a></li>
 						<li><a href="#footer" class="scroll"><span>Informacje</span></a></li>
 					</ul>
 				</nav>
@@ -36,16 +37,17 @@
 	</div>
 <div class="banner-bottom" id="about">
 <div class="container">
-	<h3 class="animated wow zoomIn" data-wow-delay=".5s"><span>Widzimy się za</span></h3>
+	<h3 class="animated wow zoomIn" data-wow-delay=".5s" id='counter_heading'><span>Widzimy się za</span></h3>
 	<div id="counter"> </div>
 </div>
 <!-- services-bottom -->
 <div class="services-bottom">
 <div class="container" id="services-bottom">
-	<h2 class="animated wow slideInLeft" data-wow-delay=".5s">2 września to będzie dla nas niezwykle ważny dzień.<br>Bardzo liczymy na Waszą obecność.<br>
+	<!-- <p class="animated wow slideInLeft" data-wow-delay=".5s">2 września to będzie dla nas niezwykle ważny dzień.<br>Bardzo liczymy na Waszą obecność.<br> -->
+	<p class="animated wow slideInLeft" data-wow-delay=".5s" id="rsvp">2 września to będzie dla nas niezwykle ważny dzień.<br>Bardzo liczymy na Waszą obecność.<br>
 Prosimy o odpowiedzi na zaproszenia<br>
 Karolina (668163402) Maciej (723775186)<br>
-lub<br>wesele@panasiewicz.pl</h2>
+lub<br>wesele@panasiewicz.pl</p>
 	<p class="animated wow slideInUp" data-wow-delay=".5s">Karolina & Maciej</p>
 </div>
 </div>
@@ -100,16 +102,34 @@ lub<br>wesele@panasiewicz.pl</h2>
 				  </div>
 				</div>
 			</div>
-			<div class="readmore-text">
-				<p class="animated wow slideInLeft" data-wow-delay=".5s">Zakochani i świadomi, że ich miłość to nie wiatr mają zaszczyt zawiadomić, że chcą razem iść przez świat uśmiechnięci, współ - objęci spróbujemy szukać zgody choć różnimy się od siebie jak dwie krople czystej wody.</p>
+			<div class="clearfix"> </div>
+			<div class="bootstrap-pop-up">
+				<h4>Rozdajemy zaproszenia</h4>
+				<p>Wręczanie zaproszeń to dla nas ogromna przyjemność.<br \>Okazja do spotkania się i porozmawiania z osobami, które są dla nas ważne.</p>
+			</div>
+			<div class="bootstrap-pop-up">
+				<h4>Majówka w Rzymie</h4>
+				<p>Tegoroczną majówkę spędziliśmy w Rzymie! Pełne 8 dni relaksu. Stolica Włoch oferuje moc zabytków, wspaniałych kawiarni i niesamowitą atmosferę pozwalającą na refleksje zarówno historyczne, jak i duchowe. </p>
+			</div>
+			<div class="bootstrap-pop-up1">
+        <%= image_tag "photos/tu fotka z rzymu.jpg", class: "img-responsive" %>
 			</div>
 		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<div class="map-frame">
-		<div id="map"></div>
 	</div>
 </div>
+</div>
+<!-- <div class="about-us" id="about-us">
+	<div class="container">
+		<h3 class="animated wow zoomIn" data-wow-delay=".5s"><span>O nas</span></h3>
+	</div>
+</div> -->
+<div class="map" id="map-title">
+	<div class="container">
+		<h3 class="animated wow zoomIn"data-wow-delay=".5s"><span>Mapka</span></h3>
+		<div class="map-frame">
+			<div id="map"></div>
+		</div>
+	</div>
 </div>
 <!-- footer -->
 <div class="footer" id="footer">
