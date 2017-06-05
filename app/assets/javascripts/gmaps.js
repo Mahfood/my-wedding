@@ -1,15 +1,17 @@
 $(document).ready(function() {
   handler = Gmaps.build('Google');
   handler.buildMap({
-    provider: {},
+    provider: {
+      scrollwheel: false
+    },
     internal: {
-      id: 'map'
+      id: 'map',
     }
   }, function() {
     var markers = handler.addMarkers([{
         lat: 53.048329,
         lng: 18.580973,
-        infowindow: "Dom Panny Młodej"
+        infowindow: "<strong>Dom Panny Młodej</strong><br>ul. Łubinowa 11"
       },
       {
         lat: 53.040964,

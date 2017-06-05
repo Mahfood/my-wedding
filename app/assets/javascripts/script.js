@@ -26,12 +26,15 @@ $(window).load(function() {
 	});
 
 });
+
 $(document).ready(function(){
 	$('.example1').wmuSlider();
 
-	$(".scroll").click(function(event){
+	$(".nav .scroll").click(function(event){
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		$('.nav li.active').removeClass('active');
+		$(this).closest('li').addClass('active');
 	});
 
 	$('.portfolio-grids a').Chocolat();
@@ -41,7 +44,7 @@ $(document).ready(function(){
 
 	$('#counter').countdown("2017/09/02 16:30:00", function(event) {
     $(this).text(
-      event.strftime('%D days %H:%M:%S')
+      event.strftime('%D dni %H:%M:%S')
     );
   });
 
