@@ -27,6 +27,7 @@ gem 'rails_12factor'
 gem 'foreman', '~> 0.82.0'
 gem 'annotate', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', '~> 2.2'
+gem 'haml', '~> 5.0', '>= 5.0.1'
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 group :development, :test do
