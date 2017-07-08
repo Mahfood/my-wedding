@@ -1191,10 +1191,17 @@ ul.wmuSliderPagination {
 }
 
 .bootstrap-pop-up1 {
-    margin: 2em 0;
+    margin-top: 2em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5em;
 }
 .bootstrap-pop-up{
     color: #ffffff;
+    margin-top: 2em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5em;
 }
 
 .bootstrap-pop-up h4{
@@ -1214,6 +1221,10 @@ ul.wmuSliderPagination {
   display: block;
   margin: 0 auto;
   box-shadow: 2px 2px 2px 2px #999;
+}
+
+img.rings {
+  max-width: 25%;
 }
 
 .readmore-text p {
@@ -1735,7 +1746,7 @@ ul .nav-tabs {
     .services,
     .team,
     .testimonials {
-        padding: 4em 0;
+        padding: 0;
     }
 
     .banner-bottom h3:before,
