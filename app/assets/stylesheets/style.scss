@@ -624,20 +624,27 @@ p.about-dummy {
 /*-- testimonials --*/
 .testimonials h3,
 .testimonials-grid-right h3 {
-    font-size: 2.5em;
-    color: #212121;
+    font-size: 3em;
+    color: #ffffff;
     margin: 0;
     text-align: center;
     position: relative;
     padding-bottom: 0.5em;
 }
-
+h4.testimonials-dummy{
+    font-size: 2.2em;
+    color: #ffffff;
+    margin: 20px 0 0 0;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.5em;
+}
 .testimonials h3:after,
 .testimonials h3:before,
 .testimonials-grid-right h3:after,
 .testimonials-grid-right h3:before {
     content: '';
-    background: #080841;
+    background: #C2BBA1;
     width: 20%;
     height: 1px;
     position: absolute;
@@ -659,7 +666,7 @@ p.about-dummy {
 .testimonials-grid-right h3 span:after,
 .testimonials-grid-right h3 span:before {
     content: '';
-    border: 1px solid #080841;
+    border: 1px solid #C2BBA1;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -696,7 +703,13 @@ p.testimonials-dummy {
     float: right;
     width: 75%;
 }
-
+.testimonials-grid-left-grids p{
+  font-size: 1.3em;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 50px;
+}
 .testimonials-grid-left-grid-right h4 {
     font-size: 1em;
     color: #212121;
@@ -704,7 +717,9 @@ p.testimonials-dummy {
     text-transform: capitalize;
     letter-spacing: 1px;
 }
-
+.about-us {
+  margin-bottom: 50px;
+}
 .testimonials-grid-left-grid-right h4 i {
     display: block;
     color: #080841;
