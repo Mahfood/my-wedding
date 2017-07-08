@@ -18,6 +18,7 @@ gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'shog', '~> 0.1.9'
 gem 'gmaps4rails'
 gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
+gem 'redis-rails', '~> 5.0', '>= 5.0.2'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
@@ -27,6 +28,7 @@ gem 'rails_12factor'
 gem 'foreman', '~> 0.82.0'
 gem 'annotate', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', '~> 2.2'
+gem 'haml', '~> 5.0', '>= 5.0.1'
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 group :development, :test do
@@ -43,6 +45,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'meta_request'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
