@@ -13,86 +13,74 @@
           2 września 2017r.
 <!-- //banner -->
 <!-- banner-bottom -->
-<div class="navigation">
-  <nav class="navbar navbar-default">
+%div{ class: 'navigation' }
+  %nav{ class: 'navbar navbar-default' }
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar">
-        </span>
-        <span class="icon-bar">
-        </span>
-        <span class="icon-bar">
-        </span>
-      </button>
-    </div>
+    %div{ class: 'navbar-header' }
+      %button{ type: 'button', class: 'navbar-toogle collapsed',
+               'data-toggle': 'collapse', 'data-target': '#bs-example-navbar-collapse-1' }
+        %span.sr-only
+          Toogle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-      <nav class="link-effect-14" id="link-effect-14">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="/">
-              <span>Strona główna</span>
-            </a>
-          </li>
-          <li>
-            <a href="#counter_heading" class="scroll">
-              <span>Rsvp</span>
-            </a>
-          </li>
-          <li>
-            <a href="#events" class="scroll">
-              <span>Aktualności</span>
-            </a>
-          </li>
-          <li>
-            <a href="#about-us" class="scroll">
-              <span>O nas</span>
-            </a>
-          </li>
-          <li>
-            <a href="#map-title" class="scroll">
-              <span>Mapka</span>
-            </a>
-          </li>
-          <li>
-            <a href="#footer" class="scroll">
-              <span>Informacje</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    %div{ class: 'collapse navbar-collapse nav-wil', id: 'bs-example-navbar-collapse-1' }
+      %nav{ class: 'link-effect-14', id: 'link-effect-14' }
+        %ul{ class: 'nav navbar-nav' }
+          %li{ class: 'active' }
+            %a{ href: '/' }
+              %span
+                Strona główna
+          %li
+            %a{ href: '#counter_heading', class: 'scroll' }
+              %span
+                Rsvp
+          %li
+            %a{ href: '#events', class: 'scroll' }
+              %span
+                Aktualności
+          %li
+            %a{ href: '#about-us', class: 'scroll' }
+              %span
+                O nas
+          %li
+            %a{ href: '#map-title', class: 'scroll' }
+              %span
+                Mapka
+          %li
+            %a{ href: '#footer', class: 'scroll' }
+              %span
+                Informacje
     <!-- /.navbar-collapse -->
-  </nav>
-</div>
-<div class="banner-bottom" id="about">
-  <div class="container">
-    <h3 class="animated wow zoomIn" data-wow-delay=".5s" id='counter_heading'>
-      <span>Widzimy się za</span>
-    </h3>
-    <div id="counter">
-    </div>
-  </div>
+%div{ class: 'banner-bottom', id: 'about' }
+  %div.container
+    %h3{ class: 'animated wow zoomIn', 'data-wow-delay': '.5s', id: 'counter_heading' }
+      %span
+        Widzimy się za
+    %div{ id: 'counter' }
   <!-- services-bottom -->
-  <div class="services-bottom">
-    <div class="container" id="services-bottom">
-      <!-- <p class="animated wow slideInLeft" data-wow-delay=".5s">2 września to będzie dla nas niezwykle ważny dzień.<br>Bardzo liczymy na Waszą obecność.<br> -->
-      <p class="animated wow slideInLeft" data-wow-delay=".5s" id="rsvp">2 września to będzie dla nas niezwykle ważny dzień.<br>Bardzo liczymy na Waszą obecność.<br>Prosimy o odpowiedzi na zaproszenia<br>Karolina (668163402) Maciej (723775186)<br>lub<br>wesele@panasiewicz.pl</p>
-      <p class="animated wow slideInUp" data-wow-delay=".5s">Karolina & Maciej</p>
-    </div>
-  </div>
+  %div{ class: 'services-bottom' }
+    %div{ class: 'container', id: 'services-bottom' }
+      %p{ class: 'animated wow slideInLeft', 'data-wow-delay': '.5s', id: 'rsvp' }
+        2 września to będzie dla nas niezwykle ważny dzień.<br>
+        Bardzo liczymy na Waszą obecność.<br>
+        Prosimy o odpowiedzi na zaproszenia<br>
+        Karolina (668163402) Maciej (723775186)<br>
+        lub<br>
+        wesele@panasiewicz.pl
+      %p{ class: 'animated wow slideInUp', 'data-wow-delay': '.5s' }
+        Karolina & Maciej
   <!-- //services-bottom -->
   <!-- news -->
-  <div class="news" id="events">
-    <div class="container">
-      <h3 class="animated wow zoomIn" data-wow-delay=".5s">
-        <span>Aktualności</span>
-      </h3>
-      <div class="news-grids">
-        <div class="news-grid-left">
-          <div class="bootstrap-pop-up">
+  %div{ class: 'news', id: 'events' }
+    %div.container
+      %h3{ class: 'animated wow zoomIn', 'data-wow-delay': '.5s' }
+        %span
+          Aktualności
+      %div{ class: 'news-grids' }
+        %div{ class: 'news-grid-left' }
+          %div{ class: 'bootstrap-pop-up' }
             <button type="button" class="btn btn-primary btn-primary-news btn-lg" data-toggle="modal" data-target="#myModal">				  Witamy na naszej weselnej stronie. To dopiero początek, zamierzamy ją na bieżąco uzupełniać o nowe informacje.				</button>
             <!-- Modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
