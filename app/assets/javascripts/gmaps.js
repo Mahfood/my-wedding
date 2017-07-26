@@ -32,6 +32,16 @@ $(document).ready(function() {
         lat: 53.027358,
         lng: 18.628218,
         infowindow: "<strong>Hostel Międzynarodowego Centrum Spotkań Młodzieży</strong><br>Hotel 1<br>ul. Władysława Łokietka 3"
+      },
+      {
+        lat: 53.012303,
+        lng: 18.608614,
+        infowindow: "<strong>Hostel Orange</strong><br>Hotel 2<br>ul. Prosta 19"
+      },
+      {
+        lat: 53.012968,
+        lng: 18.610781,
+        infowindow: "<strong>Hostel Orange Plus</strong><br>Hotel 3<br>ul. Jęczmienna 11"
       }
     ]);
     handler.bounds.extendWith(markers);
