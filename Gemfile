@@ -19,6 +19,7 @@ gem 'shog', '~> 0.1.9'
 gem 'gmaps4rails'
 gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
 gem 'redis-rails', '~> 5.0', '>= 5.0.2'
+gem 'cloudinary', '~> 1.8', '>= 1.8.1'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
