@@ -75,7 +75,7 @@
   <!-- services-bottom -->
   <div class="services-bottom">
     <div class="container" id="services-bottom">
-      <p class="animated wow slideInLeft" data-wow-delay=".5s" id="rsvp">Dziękujemy za wszystkie odpowiedzi.<br>Już wiemy, że będzie nas dużo,<br>a zabawa w takim gronie to czysta przyjemność</p>
+      <p class="animated wow slideInLeft" data-wow-delay=".5s" id="rsvp">Już tak blisko!<br>Nie możemy się doczekać<br>ślubu, wesela i spotkania z wami!</p>
       <p class="animated wow slideInUp" data-wow-delay=".5s">Karolina & Maciej</p>
     </div>
   </div>
@@ -89,6 +89,25 @@
       <div class="news-grids">
         <div class="news-grid-left">
           <div class="bootstrap-pop-up">
+            <h4>Pierwszy taniec ...</h4>
+            <p>
+              ... już prawie gotowy.<br />Przed wami kilka figur <i class="em em-bride_with_veil"></i>
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="bootstrap-pop-up1">
+            <div class='container'>
+              <div class='row justify-content-md-center'>
+                <div class="col-md-4"><%= cl_image_tag('IMG_20170826_084313_wvxv4q.jpg', class: 'img-responsive suit') %></div>
+                <div class="w-100"></div>
+                <div class="col-md-4"><%= cl_image_tag('IMG_20170826_084214_myilxn.jpg', class: 'img-responsive suit') %></div>
+                <div class="w-100"></div>
+                <div class="col-md-4"><%= cl_image_tag('IMG_20170826_084158_wrdbjg.jpg', class: 'img-responsive suit') %></div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="bootstrap-pop-up">
             <h4>Wieczór kawalerski</h4>
             <p>
               To już niebawem! Mam nadzieję, że wrócę w jednym kawałku ;).
@@ -97,7 +116,7 @@
           </div>
           <div class="clearfix"></div>
           <div class="bootstrap-pop-up1">
-            <%= cl_image_tag('kawalerski_vsamta.jpg') %>
+            <%= cl_image_tag('kawalerski_vsamta.jpg', class: 'img-responsive rings') %>
 
           </div>
           <div class="clearfix"></div>
@@ -261,15 +280,25 @@
         <li>
           <a data-toggle="tab" href="#tour">Wycieczka po Toruniu</a>
         </li>
+        <li>
+          <a data-toggle="tab" href="#parkings">Parkingi</a>
+        </li>
       </ul>
       <div class="tab-content">
         <div id="transport" class="tab-pane fade in active">
           <h3>Transport</h3>
-          <p>Para Młoda zapewnia transport z kościoła na salę weselną<br \>oraz z sali weselnej do miejsc noclegowych.<br \>Będziemy wdzięczni za informację o chęci skorzystania z transportu,<br \>tematem zajmuje się Wiktor Wiśniewski, brat Karoliny(721770939).<br \><strong>Rozkład odjazdów autobusów:</strong></p>
+          <p>Para Młoda zapewnia transport z hotelu do kościoła,<br \>z kościoła na salę weselną oraz z sali weselnej do<br \> miejsc noclegowych.<br \>Będziemy wdzięczni za informację o chęci skorzystania z transportu,<br \>tematem zajmuje się Wiktor Wiśniewski, brat Karoliny(721770939).<br \><strong><u>Rozkład odjazdów autobusów:</u></strong></p>
           <ul class='hotels'>
-            <li>Autobus 1 - 1:30 AM</li>
-            <li>Autobus 2 - 3:30 AM</li>
-            <li>Autobus 3 - 5:00 AM</li>
+            <li>16:00 -> hotel - kościół</li>
+            <li>17:30 -> kościół - sala weselna</li>
+            <li>1:30 -> z sali weselnej do miejsc noclegowych</li>
+            <li>3:30 -> z sali weselnej do miejsc noclegowych</li>
+            <li>5:00 -> z sali weselnej do miejsc noclegowych</li>
+          </ul>
+          <p><strong><u>NR TAXI:</u></strong></p>
+          <ul class='hotels'>
+            <li>Taxi PULS -> (56) 1-91 95</li>
+            <li>4TAXI czwórka -> (56) 1-9194</li>
           </ul>
           <p>W trakcie wesela będzie również w pogotowiu auto osobowe z kierowcą dla osób, które będą chciały przemieścić się poza godzinami kursowania autobusu.</p>
         </div>
@@ -298,7 +327,12 @@
         </div>
         <div id="tour" class="tab-pane fade">
           <h3>Wycieczka po Toruniu</h3>
-          <p>Wiemy, że wielu z Was jest w Toruniu po raz pierwszy.<br \>Zarówno dla tych, którzy w Toruniu jeszcze nie byli, jak i dla tych, którzy mieszkają w nim od dzieciństwa, zorganizujemy wycieczkę po przepięknej starówce.<br \>Przed poprawinami certyfikowany toruński przewodnik oprowadzi wszystkich chętnych po starówce, opowie tajemnicze historie o mieście i wskaże główne zabytki.<br \>Serdecznie zapraszamy do skorzystania z tej okazji!<br \>Pamiętajcie o wygodnym obuwiu, bo toruńska kostka brukowa nie ma litości dla obcasów. :-)​</p>
+          <p>Wiemy, że wielu z Was jest w Toruniu po raz pierwszy.<br \>Zarówno dla tych, którzy w Toruniu jeszcze nie byli, jak i dla tych, którzy mieszkają w nim od dzieciństwa, zorganizujemy wycieczkę po przepięknej starówce.<br \>Przed poprawinami certyfikowany toruński przewodnik oprowadzi wszystkich chętnych po starówce, opowie tajemnicze historie o mieście i wskaże główne zabytki.<br \>Serdecznie zapraszamy do skorzystania z tej okazji!<br \>Pamiętajcie o wygodnym obuwiu, bo toruńska kostka brukowa nie ma litości dla obcasów. <i class="em em-blush"></i>​</p>
+          <p><u>Numer do pani przewodnik: <strong>604-563-305</strong>(Anna Iwanowska)</u></br \>12:30 ruszy spacer na starówkę spod hotelu przy ul. Władysława Łokietka 3.<br \>13:00 start wycieczki -> na placu św. Katarzyny<br \>14:00 koniec wycieczki, przewodnik odprowadzi Gości na poprawiny.</p>
+        </div>
+        <div id="parkings" class="tab-pane fade">
+          <h3>Parkingi</h3>
+          <p>SALA WESELNA -> bardzo duży parking<br \>KOŚCIÓŁ -> można parkować przed kościołem lub przy pobliskich uliczkach.<br \>HOTEL MIĘDZYNARODOWE CENTRUM SPOTKAŃ MŁODZIEŻY ul. Łokietka -> bezpłatny parking dla gości.<br \>HOTEL ORANGE i ORANGE PLUS<br \>-> parkowanie przy ulicy<br \>-> parking na Placu Św, Katarzyny(strzeżony, płatny)<br \>-> parking na Placu Św, Katarzyny(niestrzeżony, bezpłatny w weekendy)<br \>-> możliwe jest także parkowanie za bramą przy parkingu niestrzeżonym. Wówczas należy skontakować się z Wiktorem Wiśniewskim(721770939) w tej sprawie. </p>
         </div>
       </div>
     </div>
